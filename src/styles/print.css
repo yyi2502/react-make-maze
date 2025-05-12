@@ -1,0 +1,16 @@
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  canvas {
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: auto !important;
+    height: auto !important;
+    max-width: 100%; /* A4サイズに収める */
+    max-height: 100%;
+  }
+}
