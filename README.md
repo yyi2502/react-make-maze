@@ -1,5 +1,8 @@
 # 迷路生成アプリ
 <img src="https://github.com/user-attachments/assets/978abcca-d025-431c-8956-ccaef5ee91c1" width="50%" />  
+
+子ども向けに、難易度を調整できて手軽に印刷できる迷路を作成しました。  
+小学1年生の子には運筆練習用に難易度を低く、小学3年生にはゲーム感覚で楽しめるように難易度を高く設定しています。  
   
 デモ: https://react-make-maze.vercel.app/  
 GitHub: https://github.com/yyi2502/react-make-maze
