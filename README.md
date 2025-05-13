@@ -1,54 +1,42 @@
-# React + TypeScript + Vite
+# 迷路生成アプリ
+<img src="{[画像URL](https://github.com/user-attachments/assets/7aabdfc9-addd-461d-8706-127fa3d67c93)}" width="50%" />  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+デモ: https://react-make-maze.vercel.app/  
+GitHub: https://github.com/yyi2502/react-make-maze
 
-Currently, two official plugins are available:
+## 主な特徴
+- 迷路の自動生成
+- 迷路サイズのカスタマイズ
+- シンプルで直感的なUI
+- 印刷対応可能
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 使い方
+1.トップページで迷路のサイズなどを設定します。  
+2.「生成」ボタンを押すと迷路が作成されます。      
+3.「印刷」ボタンから印刷して使用できます。
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## インストール方法
+1.リポジトリをクローンします。
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+git clone https://github.com/yyi2502/react-make-maze.git
+cd react-make-maze
 ```
+2.依存パッケージをインストールします。
+```
+npm install
+```
+3.開発サーバーを起動します。
+```
+npm start
+```
+ブラウザで http://localhost:3000 を開いて動作を確認できます。
+
+
+## 技術スタック
+- React
+- TypeScript
+- Vercel
+
+
+## 作者
+yyi2502
