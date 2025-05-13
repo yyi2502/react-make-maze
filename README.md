@@ -1,6 +1,6 @@
 # 迷路生成アプリ
-<img src="{[画像URL](https://github.com/user-attachments/assets/7aabdfc9-addd-461d-8706-127fa3d67c93)}" width="50%" />  
-
+<img src="https://github.com/user-attachments/assets/978abcca-d025-431c-8956-ccaef5ee91c1" width="50%" />  
+  
 デモ: https://react-make-maze.vercel.app/  
 GitHub: https://github.com/yyi2502/react-make-maze
 
